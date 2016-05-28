@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "893571824112",
+    "firebase_url": "https://rana-demo.firebaseio.com",
+    "project_id": "rana-demo",
+    "storage_bucket": "rana-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893571824112:android:78caf637a2b68bd3",
+        "android_client_info": {
+          "package_name": "com.demo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893571824112-b54d3fjrvpg7o81b8sej7ilpc4s01925.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeVYsHIbUrgxUfPyMMDlcHqtpWspJ_3no"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
