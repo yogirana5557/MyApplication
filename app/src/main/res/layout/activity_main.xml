@@ -7,10 +7,66 @@
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/signOutButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:backgroundTint="@color/colorAccent"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:text="@string/sign_out"
+        android:textColor="@color/text_white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fetchButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="Checking your price..." />
+
+    <Button
+        android:id="@+id/fetchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/padding_normal"
+        android:text="fetch remote price"
         android:textColor="@color/text_white" />
 
+
+
+    <Button
+        android:id="@+id/subscribeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Subscribe to news" />
+
+    <Button
+        android:id="@+id/logTokenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subscribeButton"
+        android:layout_gravity="center_horizontal"
+        android:text="Log token" />
+
+
+    <Button
+        android:id="@+id/crashButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logTokenButton"
+        android:layout_centerHorizontal="true"
+        android:text="Crash" />
+
+    <CheckBox
+        android:id="@+id/catchCrashCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crashButton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="catch_crash_checkbox_label" />
 </RelativeLayout>
